@@ -6,18 +6,25 @@ body, h1, h2, p, ul, li {
     list-style: none;
 }
 
-/* Basic styles for the header */
 header {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
+    margin: 0; 
 }
 
 h1 {
     font-size: 24px;
     margin-top: 0;
 }
+
+.profile-photo {
+    max-width: 100px; 
+    height: auto; 
+    margin-top: 10px; 
+}
+
 
 .social-links {
     display: flex;
@@ -40,8 +47,8 @@ main {
 
 .content {
     display: flex;
-    flex-direction: column; /* Display items in a column */
-    align-items: center; /* Center items horizontally */
+    flex-direction: column; 
+    align-items: center; 
 }
 
 /* Styles for the side panels */
@@ -49,6 +56,6 @@ main {
     width: 60%;
     background-color: #f0f0f0;
     padding: 20px;
-    margin: 10px auto; /* Center-align the side panels */
+    margin: 10px auto; 
     box-sizing: border-box;
 }
