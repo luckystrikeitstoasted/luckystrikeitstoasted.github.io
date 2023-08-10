@@ -1,8 +1,9 @@
 p { color: red; }
 
-body, h1, h2, p {
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 /* Basic styles for the header */
@@ -15,7 +16,7 @@ header {
 
 h1 {
     font-size: 24px;
-    margin-top: 0; /* Remove default margin */
+    margin-top: 0;
 }
 
 .social-links {
@@ -33,21 +34,21 @@ h1 {
 
 /* Styles for the main content */
 main {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    text-align: center;
     margin-top: 20px;
 }
 
 .content {
     display: flex;
+    flex-direction: column; /* Display items in a column */
+    align-items: center; /* Center items horizontally */
 }
 
 /* Styles for the side panels */
 .side-panel {
-    width: 25%;
+    width: 60%;
     background-color: #f0f0f0;
     padding: 20px;
+    margin: 10px auto; /* Center-align the side panels */
     box-sizing: border-box;
-    margin-right: 20px;
 }
