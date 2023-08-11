@@ -1,17 +1,16 @@
 p { color: red; }
 
-body, h1, h2, p, ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
+/* Basic styles for the header */
 header {
     background-color: #333;
-    color: white;
     text-align: center;
     padding: 20px;
-    margin: 0; 
+    margin: 0;
 }
 
 h1 {
@@ -20,11 +19,10 @@ h1 {
 }
 
 .profile-photo {
-    max-width: 100px; 
-    height: auto; 
-    margin-top: 10px; 
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
 }
-
 
 .social-links {
     display: flex;
@@ -35,11 +33,11 @@ h1 {
 
 .social-links a {
     margin: 0 10px;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
-/* Styles for the main content */
+/* Dark theme for content */
 main {
     text-align: center;
     margin-top: 20px;
@@ -47,15 +45,26 @@ main {
 
 .content {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Styles for the side panels */
+/* Dark theme for side panels */
 .side-panel {
     width: 60%;
-    background-color: #f0f0f0;
+    background-color: #262626;
     padding: 20px;
-    margin: 10px auto; 
+    margin: 10px auto;
     box-sizing: border-box;
+}
+
+/* Dark theme for headers and list items */
+h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+ul {
+    color: #ffffff;
+    margin-left: 20px;
 }
